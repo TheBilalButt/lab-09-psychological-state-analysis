@@ -14,17 +14,17 @@
 
 ---
 
-### **Technical Summary & Architectural Alignment**
+### **Technical Summary and Architectural Alignment**
 
 1. **Computer Vision Modality:**
    * Utilizes a compact Vision Transformer (ViT) architecture to model spatial facial representations, micro-expression dynamics, and affective facial cues from interview video sequences.
    * Overcomes the spatial locality constraints of traditional Convolutional Neural Networks (CNNs) by modeling long-range spatial and global affective dependencies across facial regions.
 
-2. **Linguistic & Clinical Modality:**
+2. **Linguistic and Clinical Modality:**
    * Employs Robustly Optimized BERT Pretraining Approach (RoBERTa) to encode clinical dialogues and interview transcripts into dense semantic contextual embeddings.
 
 3. **Cross-Attention Fusion Mechanism:**
-   * Implements a cross-attention-based late fusion module to explicitly model bidirectional interactions between visual facial expressions and linguistic markers, dynamically aligning non-verbal affective behaviors with expressed semantic content.
+   * Implements a cross-attention late fusion module to model bidirectional interactions between visual facial expressions and linguistic markers, dynamically aligning non-verbal affective behaviors with expressed semantic content.
 
 4. **Relevance to Project ("Psychological State Analysis Using Multimodal AI"):**
    * Directly supports our three core clinical domains:
@@ -40,7 +40,7 @@
 ### 1. **DEP-Former: Multimodal Depression Recognition Based on Facial Expressions and Audio Features via Emotional Changes**
 * **Authors:** Jiayu Ye, Yanhong Yu, Lin Lu, Hao Wang, Yunshao Zheng, and Yang Liu
 * **Year:** 2024
-* **Venue:** *IEEE Transactions on Circuits and Systems for Video Technology* (TCSVT), Vol. 35, Issue 5, pp. 4679–4692
+* **Venue:** *IEEE Transactions on Circuits and Systems for Video Technology* (TCSVT), Vol. 35, Issue 5, pp. 4679-4692
 * **DOI:** [10.1109/TCSVT.2024.3491098](https://doi.org/10.1109/TCSVT.2024.3491098)
 * **Official Link:** [https://doi.org/10.1109/TCSVT.2024.3491098](https://doi.org/10.1109/TCSVT.2024.3491098)
 * **Relevance:** Introduces a multimodal cross-attention framework that maps facial expressions and acoustic emotional transitions into a shared space, validated on AVEC 2014 with interpretable attention query analysis.
